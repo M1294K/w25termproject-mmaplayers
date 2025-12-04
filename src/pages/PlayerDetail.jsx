@@ -49,7 +49,7 @@ export default function PlayerDetail() {
     return (
         <div className={`p-8 min-h-screen ${theme.bg} ${theme.text} flex flex-col items-center`}>
 
-            {/* 🔥 대표 카드 */}
+            {/* 대표 카드 */}
             <div
                 className={`
                     w-full max-w-2xl p-6 mb-8 shadow-2xl border
