@@ -26,7 +26,7 @@ export default function PlayerCard({ player }) {
         >
 
             <img
-                src={`http://localhost:8080/api/proxy/image?url=${encodeURIComponent(player.imageSrc)}`}
+                src={`https://w25term-project-mongodb-backend.onrender.com/api/proxy/image?url=${encodeURIComponent(player.imageSrc)}`}
                 alt={player.name}
                 className="w-24 h-40 object-cover"
             />
