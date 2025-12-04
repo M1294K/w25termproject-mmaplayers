@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'http://localhost:8080/api',
+    baseURL: 'https://w25term-project-mongodb-backend.onrender.com/api',
 })
 
 export const getPlayerDetail = async (id) => {
